@@ -60,7 +60,7 @@ export class LoginComponent implements OnInit
                     config.verticalPosition = this.verticalPosition;
                   
                     this.snackBar.open("Logged in Successfully", this.action ? this.actionButtonLabel : undefined, config);
-
+                    localStorage.setItem('AdminUser', response.token);
                     this._Route.navigate(['/Admin/Dashboard']);
                 }
 
@@ -71,6 +71,7 @@ export class LoginComponent implements OnInit
                     config.verticalPosition = this.verticalPosition;
                   
                     this.snackBar.open("Logged in Successfully", this.action ? this.actionButtonLabel : undefined, config);
+                    localStorage.setItem('currentUser', response.token);
                     this._Route.navigate(['/User/Dashboard']);
                 }
             });
