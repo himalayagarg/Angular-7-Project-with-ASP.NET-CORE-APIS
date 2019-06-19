@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+https://github.com/saineshwar/Angular-7-Project-with-ASP.NET-CORE-APIS
+Database script: https://payhip.com/b/vJ1L
+
+Credential 
+=========== User =========== 
+Username :- user
+Password :- 123456
+
+=========== Admin =========== 
+Username :- admin
+Password :- 123456
+
+After login: http://localhost:4201/#/User
